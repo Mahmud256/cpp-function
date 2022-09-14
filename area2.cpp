@@ -38,10 +38,11 @@ int main()
     cout<<"Enter Weight Value:";
     cin>>w;
 
+    cout<<endl;
     Triangle = triangle(h,w);
     cout<<"Triangle Area is: "<<Triangle<<endl;
 
-    Circle = circle(5);
+    Circle = circle(r);
     cout<<"Circle Area is: "<<Circle<<endl;
 
     Rectangle = rectangle(h,w);
